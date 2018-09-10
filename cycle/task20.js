@@ -4,7 +4,7 @@ alphabet[alphabetLength];
 console.log(alphabet[alphabetLength]);
 
 
-var  alphabet = 0;
-while (alphabet < 6) {
-    console.log(alphabet++);
+var  randomString = 0;
+while (randomString < 10) {
+    console.log(randomString++);
 }
