@@ -1,2 +1,2 @@
-namber = 123 * 456;
+namber = 12345 / 250;
 console.log(namber);
