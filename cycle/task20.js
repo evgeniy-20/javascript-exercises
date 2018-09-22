@@ -1,10 +1,5 @@
 var alphabet = "abcdefghijklmnopqrstuvwxyz";
-var alphabetLength = Math.floor(Math.random() * 5);
-alphabet[alphabetLength];
-console.log(alphabet[alphabetLength]);
+var number = Math.floor(Math.random() * alphabet.length);
+var letter = alphabet[number];
+console.log(letter);
 
-
-var  randomString = 0;
-while (randomString < 10) {
-    console.log(randomString++);
-}

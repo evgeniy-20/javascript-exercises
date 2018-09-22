@@ -9,3 +9,5 @@ landmarks.push("My old school");
 landmarks.push("My friend`s house");
 landmarks.pop();
 console.log(landmarks);
+var arey = [1, 2, 3];
+arey[1];
