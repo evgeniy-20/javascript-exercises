@@ -1,4 +1,3 @@
-var furryAnimals = ["Alpaca" , "Ring-tailed Lemer" , "Yeti"];
-var scalyAnimals = ["Boa Constrictor" , "Godzilla"];
-var furryAndScalyAnimals = furryAnimals.concat(scalyAnimals);
-console.log(furryAndScalyAnimals);
+var dinosaursAndNumbers = [3, "dinosaur", ["triceratops", "stegosaurus", 3627.5], 10];
+console.log(dinosaursAndNumbers[2]);
+console.log(dinosaursAndNumbers[2][2]);
