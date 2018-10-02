@@ -1,0 +1,13 @@
+var animals = [];
+animals.push("Cat");
+animals.push("Dog");
+animals.push("Llama");
+console.log(animals);
+console.log(animals.length);
+console.log(animals[0]);
+console.log(animals.unshift("Monkey"));
+console.log(animals);
+console.log(animals.unshift("Polar Bear"));
+console.log(animals);
+console.log(animals[0]);
+console.log(animals[2]);
