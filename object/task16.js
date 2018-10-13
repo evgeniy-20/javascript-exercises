@@ -11,6 +11,6 @@ console.log(cat);
 var dog = {
     name: "Pancake",
     legs: 4,
-    isAwesome: true 
+    isAwesome: true
 };
 console.log(dog.isBrown);
