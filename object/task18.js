@@ -5,3 +5,5 @@ var friends = [stas , yura , alina];
 console.log(friends[0]);
 console.log(friends[1]);
 console.log(friends[2]);
+console.log(friends[2].name);
+console.log(friends[0].luckyNumbers[1]);
