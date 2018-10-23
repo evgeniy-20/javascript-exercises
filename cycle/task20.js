@@ -1,5 +1,7 @@
 var alphabet = "abcdefghijklmnopqrstuvwxyz";
-var number = Math.floor(Math.random() * alphabet.length);
-var letter = alphabet[number];
-console.log(letter);
+// Обираємо випадкову літеру із рядка
+var alphabet = alphabet[Math.floor(Math.random() * 16)];
+console.log(alphabet);
+// Видобовуємо символ з індексом
+
 
