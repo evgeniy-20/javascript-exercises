@@ -2,3 +2,6 @@ for (var number = 0; number <= 10; number++) {
     console.log(number);
 }
 
+var name = prompt("What's your name?");
+console.log("Hello " + name);
+
