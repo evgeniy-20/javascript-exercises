@@ -12,7 +12,10 @@
             "dog",
             "cat",
             "people",
-            "car"
+            "car",
+            "array",
+            "cycle",
+            "programmer"
         ];
         // Обираємо випадкове слово
          var word = words[Math.floor(Math.random() * words.length)];
@@ -34,6 +37,7 @@
             } else if(guess.length !== 1) {
                 alert("Please enter a single letter.");
             } else {
+                guess = guess.toLowerCase();
               // Оновлюємо стан гри  за допомогою змінного параметра guess
                 for (var j = 0; j < word.length; j++) {
                     if (word[j] === guess) {
