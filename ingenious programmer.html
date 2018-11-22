@@ -25,8 +25,9 @@
             answerArray[i] = "_";
         }
         var remainingLetters = word.length;
+        var guesses = 10;
         // Ігровий цикл
-        while (remainingLetters > 0) {
+        while (remainingLetters > 0 && guesses > 0) {
             // Показуэмо гравцю його прогрес
             alert(answerArray.join(" "));
             // Отримуємо варіанти відповідей від гравця
