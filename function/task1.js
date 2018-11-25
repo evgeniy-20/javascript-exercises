@@ -1,4 +1,4 @@
 var ourFirstFunction = function () {
-    console.log("Hello Evgen!");
+    console.log("Hello world!");
 };
 ourFirstFunction();
