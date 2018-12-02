@@ -7,12 +7,13 @@
 <body>
     <h1 id="main-heading">Hello world!</h1>
 
+    <script src="https://code.jquery.com/jquery-2.1.0.js"></script>
 
     <script>
         var headingElement = document.getElementById("main-heading");
         console.log(headingElement.innerHTML);
         var newHeadingText = prompt("Please provide a new heading");
-            headingElement.innerHTML =  newHeadingText;
+        $("#main-heading").text(newHeadingText);
     </script>
 </body>
 </html>
