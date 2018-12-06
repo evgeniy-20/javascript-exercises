@@ -15,6 +15,9 @@
         var newHeadingText = prompt("Please provide a new heading");
         $("#main-heading").text(newHeadingText);
         $("body").append("<p>This is a new paragraph</p>");
+        $("h1").text("This will fade out").fadeOut(3000);
+        $("h1").fadeOut(3000).fadeIn(2000);
+        S("h1").slideUp(1000).slideDown(1000);
     </script>
 </body>
 </html>
