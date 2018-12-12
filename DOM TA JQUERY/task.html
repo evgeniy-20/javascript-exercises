@@ -2,15 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Playing with the DOM</title>
+    <title>Title</title>
 </head>
 <body>
-    <h1 id="main-heading">Hello world!</h1>
-
     <script src="https://code.jquery.com/jquery-2.1.0.js"></script>
 
     <script>
-        $("#main-heading").text("My friends!");
+        $("#main-heading").text("Мои друзья");
 
         var friends = ["Стас", "Юра", "Саша"];
 
@@ -19,7 +17,7 @@
             $("p").last().hide().fadeIn((i + 1) * 10000);
         }
 
-        $("p").append(" добрый!");
+        $("p").append(" добрые!");
     </script>
 </body>
 </html>
