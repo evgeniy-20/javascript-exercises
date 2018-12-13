@@ -20,6 +20,11 @@
         }
 
         $("p").append(" добрый!");
+        var fadeTime;
+        for (var i = 0; i < 5; i++) {
+            fadeTime = (i + 1) * 1000;
+            $("#main-heading").fadeOut(fadeTime / 2).fadeIn(fadeTime / 2);
+        }
     </script>
 </body>
 </html>
