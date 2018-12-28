@@ -7,3 +7,15 @@ var cat = {
     speak: speak
 };
 cat.speak();
+var pig = {
+    sound: "Oink",
+    name: "Carlie",
+    speak: speak
+};
+var horse = {
+    sound: "Neigh",
+    name: "Marie",
+    speak: speak
+};
+pig.speak();
+horse.speak();
