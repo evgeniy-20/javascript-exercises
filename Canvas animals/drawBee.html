@@ -5,7 +5,7 @@
     <title>drawBee</title>
 </head>
 <body>
-    <canvas id="canvas" width="200" height="200"></canvas>
+    <canvas id="canvas" width="400" height="400"></canvas>
     <script>
         var  circle = function (x, y, radius, fillCircle) {
             ctx.beginPath();
@@ -30,8 +30,8 @@
         var update = function (coordinate) {
             var offset = Math.random() * 4 - 2;
             coordinate += offset;
-            if (coordinate > 200) {
-                coordinate = 200;
+            if (coordinate > 400) {
+                coordinate = 400;
             }
             if (coordinate < 0) {
                 coordinate = 0;
@@ -43,11 +43,11 @@
         var x = 100;
         var y = 100;
         setInterval(function () {
-            ctx.clearRect(0, 0, 200, 200);
+            ctx.clearRect(0, 0, 400, 400);
             drawBe(x, y);
             x = update(x);
             y = update(y);
-            ctx.strokeRect(0, 0, 200, 200);
+            ctx.strokeRect(0, 0, 400, 400);
         }, 30);
     </script>
 </body>
