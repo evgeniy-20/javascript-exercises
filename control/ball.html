@@ -6,14 +6,15 @@
 </head>
 <body>
     <canvas id="canvas" width="400" height="400"></canvas>
+    <script src="https://code.jquery.com/jquery-2.1.0.js"></script>
     <script>
         var canvas = document.getElementById("canvas");
         var ctx = canvas.getContext("2d");
         var width = canvas.width;
         var height = canvas.height;
-        var circle = function (x, y, redius, fillCircle) {
+        var circle = function (x, y, radius, fillCircle) {
             ctx.beginPath();
-            ctx.arc(x, y, redius, 0, Math.PI * 2, false);
+            ctx.arc(x, y, radius, 0, Math.PI * 2, false);
             if (fillCircle) {
                 ctx.fill();
             } else {
@@ -75,8 +76,8 @@
         });
         setInterval(function () {
             ctx.clearRect(0, 0, width, height);
-                balls[i].draw();
-                balls[i].move();
+            ball.draw();
+            ball.move();
             ctx.strokeRect(0, 0, width, height);
         }, 30);
     </script>
