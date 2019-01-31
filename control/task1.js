@@ -4,4 +4,4 @@ var sqrt  = function (x) {
 console.log(sqrt());
 for (var number = 15; number <= 25; number++) {
     console.log(number);
-}r
+}
