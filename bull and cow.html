@@ -5,15 +5,14 @@
     <title>bull and cow</title>
 </head>
 <body>
-    <div class="header">
-        <div class="wrapper">
-            <div class="top">
-                Быки и коровы
-            </div>
-        </div>
-    </div>
+    <input type="text" name="fullname"/>
+    <input type="button"  value="ok"/>
+    <script src="https://code.jquery.com/jquery-2.1.0.js"></script>
     <script>
-
+        var clickHandler = function (event) {
+            alert("Hi!");
+        };
+        $("input").click(clickHandler);
     </script>
 </body>
 </html>
