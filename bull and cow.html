@@ -5,14 +5,16 @@
     <title>bull and cow</title>
 </head>
 <body>
-    <input type="text" name="fullname"/>
-    <input type="button"  value="ok"/>
+    <input id="guess" type="text" />
+    <button id="guess-button">Ok</button>
+    <div>Результат</div>
     <script src="https://code.jquery.com/jquery-2.1.0.js"></script>
     <script>
-        var clickHandler = function (event) {
-            alert("Hi!");
+        var clickHandler = function () {
+            var value = $("#guess").val();
+            alert(value);
         };
-        $("input").click(clickHandler);
+        $("#guess-button").click(clickHandler);
     </script>
 </body>
 </html>

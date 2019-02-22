@@ -5,9 +5,15 @@
     <title>Title</title>
 </head>
 <body>
-    <div id="sales"><input type="button" value="say hi" onclick="buy()" /></div>
+    <form name="text">
+        <input type="button" value="Push" onClick="copy()">
+        <input type="text" id="text4" name="text2">
+    </form>
     <script>
-        alert("Hi!");
+        function copy() {
+            var w = document.text.text2.value;
+            alert('Привет'+'w');
+        }
     </script>
 </body>
 </html>

@@ -10,6 +10,6 @@ for (var i = 0; i < animals.length; i++) {
     console.log("This zoo contains a " + animals[i] + ".");
 }
 var name = "Evgen";
-for (var i = 0; i < name.length; i++) {
+for (var i = 09k; i < name.length; i++) {
     console.log("My name contains the letter " + name[i] + ".");
 }

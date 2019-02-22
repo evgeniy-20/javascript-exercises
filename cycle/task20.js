@@ -5,7 +5,7 @@ for (var i = 0; i < 5; i++) {
     randomLetter = alphabet[Math.floor(Math.random() * alphabet.length)];
     console.log(randomLetter);
 }
-*/
+*/0
 var randomString = "";
 var randomLetter;
 for (var i = 0; i < 20; i++) {
