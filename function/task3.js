@@ -3,4 +3,4 @@ var drawCats = function (howManyTimes) {
         console.log(i + "=^.^=");
     }
 };
-drawCats(100);
+drawCats(1000000);
