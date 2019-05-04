@@ -7,5 +7,5 @@ var randomWords = ["Fly", "Marmot", "Stick", "Monkey", "Rat"];
 // З'єднуємо усі випадкові рядки у речення
 var randomString = "Your " + pickRandomWord(randomBodyParts) +
     " is like a "  +  pickRandomWord(randomAdjectives) +
-    "" + pickRandomWord(randomWords) + " !!!";
+    " " + pickRandomWord(randomWords) + " !!!";
 console.log(randomString);
