@@ -9,3 +9,9 @@ var medalForScore = function (score) {
     return "Gold";
 };
 console.log(medalForScore(2));
+
+
+
+
+
+

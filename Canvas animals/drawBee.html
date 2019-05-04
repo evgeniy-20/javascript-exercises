@@ -7,48 +7,28 @@
 <body>
     <canvas id="canvas" width="400" height="400"></canvas>
     <script>
-        var  circle = function (x, y, radius, fillCircle) {
-            ctx.beginPath();
-            ctx.arc(x, y, radius, 0, Math.PI * 2, false);
-            if (fillCircle) {
+        function draw() {
+            var canvas = document.getElementById('canvas');
+            if (canvas.getContext){
+                var ctx = canvas.getContext('2d');
+                ctx.fillStyle = "Red";
+
+                // Cubic curves example
+                ctx.beginPath();
+                ctx.moveTo(75,40);
+                ctx.bezierCurveTo(75,37,70,25,50,25);
+                ctx.bezierCurveTo(20,25,20,62.5,20,62.5);
+                ctx.bezierCurveTo(20,80,40,102,75,120);
+                ctx.bezierCurveTo(110,102,130,80,130,62.5);
+                ctx.bezierCurveTo(130,62.5,130,25,100,25);
+                ctx.bezierCurveTo(85,25,75,37,75,40);
                 ctx.fill();
-            } else {
-                ctx.stroke();
             }
-        };
-        var drawBe = function (x, y) {
-            ctx.lineWidth = 2;
-            ctx.strokeStyle = "Black";
-            ctx.fillStyle = "Gold";
-            circle(x, y, 8, true);
-            circle(x, y, 8, false);
-            circle(x - 5, y - 11, 5, false);
-            circle(x + 5, y - 11, 5, false);
-            circle(x - 2, y - 1, 2, false);
-            circle(x + 2, y - 1, 2, false);
-        };
-        var update = function (coordinate) {
-            var offset = Math.random() * 4 - 2;
-            coordinate += offset;
-            if (coordinate > 400) {
-                coordinate = 400;
-            }
-            if (coordinate < 0) {
-                coordinate = 0;
-            }
-            return coordinate;
-        };
-        var canvas = document.getElementById("canvas");
-        var ctx = canvas.getContext("2d");
-        var x = 100;
-        var y = 100;
-        setInterval(function () {
-            ctx.clearRect(0, 0, 400, 400);
-            drawBe(x, y);
-            x = update(x);
-            y = update(y);
-            ctx.strokeRect(0, 0, 400, 400);
-        }, 30);
+        }
+        draw();
     </script>
+    <div class="good">
+        <p>I love you</p>
+    </div>
 </body>
 </html>
