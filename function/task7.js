@@ -3,7 +3,7 @@ var fifthLetter = function (name) {
         return;
     }
 
-    return "The fifth letter of your name is " + name[4] + ".";
+    return "The fifth letter of your name is " + name[6] + ".";
 };
 console.log(fifthLetter("Evgeniy"));
-console.log(fifthLetter("Evg"));
+console.log(fifthLetter("Evgen"));
