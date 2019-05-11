@@ -1,5 +1,11 @@
-var randomNumbers = [0,1,2,3,4,5,6,7,8,9];
-var getRandomNumber = function (number) {
-    return number[Math.floor(Math.random() * number.length)];
+var getRandomNumber = function () {
+    return Math.floor(Math.random() * 9);
 };
-console.log(getRandomNumber(randomNumbers));
+console.log(getRandomNumber());
+var arr = [];
+while(arr.length < 4){
+    var randomnumber = Math.floor(Math.random()*9) + 1;
+    if(arr.indexOf(randomnumber) > -1) continue;
+    arr[arr.length] = randomnumber;
+}
+console.log(arr);
