@@ -9,3 +9,8 @@ while(arr.length < 4){
     arr[arr.length] = randomnumber;
 }
 console.log(arr);
+var compare = function (argument1, argument2) {
+    console.log("My first argument was: " + answer);
+    console.log("My first argument was: " + attempt);
+};
+compare();
