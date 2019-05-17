@@ -10,7 +10,7 @@ while(arr.length < 4){
 }
 console.log(arr);
 var compare = function (argument1, argument2) {
-    console.log("My first argument was: " + answer);
-    console.log("My first argument was: " + attempt);
+    console.log("My first argument was: " + argument1);
+    console.log("My first argument was: " + argument2);
 };
-compare();
+compare(true, false);
