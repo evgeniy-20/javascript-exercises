@@ -1,11 +1,16 @@
-var a = function (argument1, argument2) {
-    if (argument1 !== argument2) {
-        return true;
+var string = "I'm good!";
+var count = 0;
+for (var i=0; i < string.length; i++) {
+    var letter = string[i];
+    if (letter === "o") {
+        count++;
+        console.log(letter);
     }
-    for (var i =0; i < argument1; i++) {
-        if (argument1[i] !== argument2[i]) {
-            return false;
-        }
-    }
-};
-console.log(a(false, true));
+}
+console.log(count);
+var string1 = "Evgen","Stas";
+var count1 = 0;
+for (var i=0; i < string1.length; i++) {
+
+}
+
