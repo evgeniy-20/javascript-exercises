@@ -12,4 +12,4 @@ function countBullsAndCows(a, b) {
     }
     return `Bulls ${countBulls}, Cows ${countCows}`;
 }
-console.log(countBullsAndCows("1234", "1572"));
+console.log(countBullsAndCows("1234", "1582"));
