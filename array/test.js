@@ -1,0 +1,3 @@
+function bulls(a,b) {
+
+}
