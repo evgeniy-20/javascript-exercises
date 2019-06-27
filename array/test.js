@@ -1,3 +1,0 @@
-function bulls(a,b) {
-
-}
